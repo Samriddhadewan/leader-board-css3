@@ -1,0 +1,35 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Lobster&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto:wght@500;700&family=Work+Sans:wght@400;800&display=swap');
+/* common styles  and utilities */
+body{
+    font-family:  'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+/* top players style  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.top-players-title{
+    color: #562EFF;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
